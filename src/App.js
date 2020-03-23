@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactPlayer from 'react-player';
-import Recaptcha from 'react-recaptcha';
 import './App.css';
 
 class Episode extends React.Component {
