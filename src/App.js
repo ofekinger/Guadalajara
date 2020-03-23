@@ -2,16 +2,6 @@ import React from 'react';
 import ReactPlayer from 'react-player';
 import './App.css';
 
-class Episode extends React.Component {
-  render() {
-    return (
-      <div className="Episode">
-        <ReactPlayer url={this.props.url} />
-      </div>
-    )
-  }
-}
-
 function App() {
   return (
     <div className="App">
@@ -29,9 +19,9 @@ function App() {
       <div className="QuickAccess">
         <img src="/images/quickaccess.png" />
         <div className="Episodes">
-          <Episode url="https://www.youtube.com/watch?v=XsFe56c_k2c" />
-          <Episode url="https://www.youtube.com/watch?v=qeF3Sx_IGvE" />
-          <Episode url="https://www.youtube.com/watch?v=IsCTJhkO624" />
+          <ReactPlayer className="Episode" width="30%" url="https://www.youtube.com/watch?v=XsFe56c_k2c" />
+          <ReactPlayer className="Episode" width="30%" url="https://www.youtube.com/watch?v=qeF3Sx_IGvE" />
+          <ReactPlayer className="Episode" width="30%" url="https://www.youtube.com/watch?v=IsCTJhkO624" />
         </div>
       </div>
       <hr />
