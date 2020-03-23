@@ -1,0 +1,169 @@
+body {
+    background-image: url("/images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    direction: rtl;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.Header img {
+    display: inline;
+    height: 400px;
+}
+
+.Header h2 {
+    color: #ffffff;
+    font-size: xx-large;
+    text-shadow: #FF0000 0px 0px 7px,   #FF0000 0px 0px 7px,   #FF0000 0px 0px 7px,
+                 #FF0000 0px 0px 7px,   #FF0000 0px 0px 7px,   #FF0000 0px 0px 7px;
+}
+
+.Header h1 {
+    color: #fffc00;
+    font-size: 80px;
+    margin-block-start: 0;
+    text-shadow: #FF0000 0px 0px 7px,   #FF0000 0px 0px 7px,   #FF0000 0px 0px 7px,
+                 #FF0000 0px 0px 7px,   #FF0000 0px 0px 7px,   #FF0000 0px 0px 7px;
+}
+
+.QuickAccess {
+    display: flex;
+    flex-direction: column;
+}
+
+.QuickAccess img {
+    width: 500px;
+    margin: 0px 25px 25px 0px
+}
+
+.Episodes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.Episode {
+    margin: 5px;
+    box-shadow: 0px 0px 40px 20px #fffc00;
+}
+
+hr {
+    background:url("/images/sharvit.png") no-repeat top center;
+    background-size: contain;
+    height:150px;
+    border:none !important;
+}
+
+.Petition {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    margin-right: 120px;
+}
+
+.Petition img {
+    /* flex-basis: 2rem; */
+    flex: 0;
+    width: 600px;
+    height: 426px;
+    justify-self: left;
+}
+
+.Petition h3 {
+    white-space: nowrap;
+    overflow: hidden;
+    color: #fffc00;
+    font-size: 40px;
+    direction: rtl;
+    margin-block-start: 0;
+    text-shadow: #FF0000 0px 0px 7px,   #FF0000 0px 0px 7px,   #FF0000 0px 0px 7px,
+                 #FF0000 0px 0px 7px,   #FF0000 0px 0px 7px,   #FF0000 0px 0px 7px;
+}
+
+.Petition h4 {
+    white-space: nowrap;
+    overflow: hidden;
+    color: #ffffff;
+    font-size: xx-large;
+    text-shadow: #FF0000 0px 0px 7px,   #FF0000 0px 0px 7px,   #FF0000 0px 0px 7px,
+                 #FF0000 0px 0px 7px,   #FF0000 0px 0px 7px,   #FF0000 0px 0px 7px;
+}
+
+.FormInput {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.Input {
+    flex: 1;
+    margin: 5px;
+    padding: 5px;
+    height: 40px;
+    min-height: 40px;
+    line-height: 30px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Input::placeholder,button {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+button.Input {
+    /* -webkit-appearance: none; */
+    background-image: url("/images/erch.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+}
+
+.FormRow {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.FormRow img { 
+    flex: 0;
+    width: 490px;
+    height: 120px;
+}
+
+.FormRow button {
+    min-height: 110px;
+}
+
+.Footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Lemon {
+    width: 20%;
+}
+
+.Credit {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: larger;
+}
+
+.Credit img {
+    width: 10%
+}
